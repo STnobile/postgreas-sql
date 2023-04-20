@@ -27,9 +27,11 @@
    "cSpell.words": [
       "berners",
       "Breakthru",
+      "nobile",
       "psycopg",
       "sessionmaker",
-      "sqlalchemy"
+      "sqlalchemy",
+      "stefano"
    ],
    "[python]": {
       "editor.defaultFormatter": "ms-python.python"

@@ -31,7 +31,7 @@ session = Session()
 base.metadata.create_all(db)
 
 
-# creating records on our Progammer table
+# creating records on our Programmer table
 ada_lovelace = Programmer(
     first_name="Ada",
     last_name="Lovelace",
@@ -80,11 +80,11 @@ tim_berners_lee = Programmer(
     famous_for="World Wide Web"
 )
 
-your_name = Programmer(
-    first_name="Your First Name",
-    last_name="Your Last Name",
-    gender="Your Gender",
-    nationality="Your Nationality",
+stefano_nobile = Programmer(
+    first_name="Stefano",
+    last_name="Nobile",
+    gender="M",
+    nationality="Sicily",
     famous_for="Celebrate Yourself Here"
 )
 
@@ -95,7 +95,7 @@ your_name = Programmer(
 # session.add(margaret_hamilton)
 # session.add(bill_gates)
 # session.add(tim_berners_lee)
-# session.add(your_name)
+# session.add(stefano_nobile)
 
 
 # updating a single record
